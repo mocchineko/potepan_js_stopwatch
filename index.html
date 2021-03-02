@@ -12,22 +12,24 @@
 
 <body>
     <h3>ストップウォッチ</h3>
-    <div id="hours"></div>
-    <span>:</span>
-    <div id="minutes"></div>
-    <span>:</span>
-    <div id="seconds"></div>
-    <span>:</span>
-    <div id="milliSeconds"></div>
+    <div id="timer">
+        <span id="hours">0</span>
+        :
+        <span id="minutes">0</span>
+        :
+        <span id="seconds">0</span>
+        :
+        <span id="milliSeconds">0</span>
+    </div>
     <div class="buttons">
         <div class="button">
             <button id="start">スタート</button>
         </div>
         <div class="button">
-            <button id="stop">ストップ</button>
+            <button id="stop" disabled>ストップ</button>
         </div>
         <div class="button">
-            <button id="reset">リセット</button>
+            <button id="reset" disabled>リセット</button>
         </div>
     </div>
     <script src="main.js"></script>
