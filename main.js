@@ -6,14 +6,8 @@ let seconds = 0;
 $(document).ready(function () {
     let timer = 0;
 
-    // $("milliSeconds").html(milliSeconds);
-    // $("seconds").html(seconds);
-    // $("minutes").html(minutes);
-    // $("hours").html(hours);
-
     //スタートボタン
     $("#start").click(function () {
-        // $('#timer').html('0:0:0:0');
 
         timer = setInterval("countUp()", 100);
 
